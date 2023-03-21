@@ -1,0 +1,172 @@
+/****************************************Tag Selectors************************************/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+    size: 4rem;
+    
+}
+h2{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    line-height: 1:5;
+    font-size: 1.5rem;
+    
+    
+}
+
+
+
+
+
+/***************************************Class Selectors***********************************/
+
+
+/* heading */
+
+.bigheading{
+
+}
+
+.container-fluid{
+    padding: 2% 15% 7%;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-link{
+    margin: 18px;
+    font-size: 1.2rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.DBD{
+    margin: 5% 5% 5% 0 ;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    right: 60px;
+}
+
+.testimonial-image{
+    width: 25%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+
+
+
+
+
+/***************************************ID Selectors**************************************/
+
+#biggertxt{
+    padding: 7% 15%;
+    font-size: 4rem;
+    line-height: 1.5;
+
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    bottom: 250px;
+    z-index: 1;
+}
+
+#Logo{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+    position: relative;
+    bottom: 150px;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    position: relative;
+    bottom: 150px;
+    
+}
+
+
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+   
+}@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
